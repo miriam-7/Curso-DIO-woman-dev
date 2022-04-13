@@ -1,0 +1,21 @@
+//exercicio tabuada
+
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro contador,limite,resultado,tabuada
+		contador = 0
+		limite = 10
+		escreva("\n" + "Qual tabuada?")
+		leia(tabuada)
+		
+		faca {
+//o comando ++ na linha14 quer dizer contador = contador+1//
+			resultado = tabuada *contador
+			escreva(tabuada + " X " + contador + " = " + resultado + "\n")
+			contador ++
+		}enquanto (contador<=limite)
+	}
+}
